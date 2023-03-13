@@ -19,7 +19,7 @@ const Hero = ({heading, message, mission, meetthefounder, about}) => {
       </div>
 
       <main className="fixed z-10 mt-48 justify-center items-center">
-        <div mt-28>
+        <div >
         <div>
           <h1 className="text-white text-6xl text-center text-bold py-40 font-extrabold">GLOBALZEN STUDIOS</h1>
  
