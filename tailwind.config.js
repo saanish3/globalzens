@@ -10,6 +10,13 @@ module.exports = {
   ],
 
   theme: {
+    colors: {
+      'black': '#000000',
+      'white': '#FFFFFF',
+      'globalteal': '#00CED1',
+      'globalgold': '#E3D54A',
+      'globalpink': '#F6D8CE',
+    },
     
     extend: {},
   },

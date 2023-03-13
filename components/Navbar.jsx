@@ -11,38 +11,39 @@ const Navbar = () => {
   }
 
   return (
-    <div className="fixed left-0 top-0 w-full z-10 ease-in duration-300">
+    <div className="fixed left-0 top-0 w-full z-10 ease-in duration-300" style={{height: '60px'}}>
+      <p className="text-center bg-white text-globalgold " style={{lineHeight: '60px'}}>
+        remember fitness is not one size fits all
+      </p>
       <div className="max-w-[1240px] ml-3 m-auto flex justify-between items-center text-black-800 py-0">
-        <Link href="/" className="logo-link ml-4">
-          <h1 className="text-4xl font-extrabold text-yellow-300 tracking-wider uppercase">
-            LOGO
-          </h1>
-        </Link>
 
-        <ul className="hidden sm:flex">
-          <li className="p-4">
+      </div>
+
+      <div className="bg-black border-black-800" style={{paddingTop: '10px', paddingBottom: '10px'}}>
+        <ul className="max-w-[1240px] mx-auto px-4 py-0 justify-between items-center hidden sm:flex">
+          <li className="p-1">
             <Link href="/">
-              <span className="hover:text-yellow-300 font-extrabold tracking-wider">about</span>
+              <span className="hover:text-yellow-300 font-extrabold ">about</span>
             </Link>
           </li>
-          <li className="p-4">
+          <li className="p-1">
             <Link href="/resume">
-              <span className="hover:text-yellow-300 font-extrabold tracking-wider">classes</span>
+              <span className="hover:text-yellow-300 font-extrabold ">classes</span>
             </Link>
           </li>
-          <li className="p-4">
+          <li className="p-1">
             <Link href="/projects">
-              <span className="hover:text-yellow-300 font-extrabold tracking-wider">tutorials</span>
+              <span className="hover:text-yellow-300 font-extrabold ">tutorials</span>
             </Link>
           </li>
-          <li className="p-4">
+          <li className="p-1">
             <Link href="/contact">
-              <span className="hover:text-yellow-300 font-extrabold tracking-wider">contact me</span>
+              <span className="hover:text-yellow-300 font-extrabold ">contact</span>
             </Link>
           </li>
-          <li className="p-4">
+          <li className="p-1">
             <Link href="/contact">
-              <span className="hover:text-yellow-300 font-extrabold tracking-wider">events</span>
+              <span className="hover:text-yellow-300 font-extrabold ">events</span>
             </Link>
           </li>
         </ul>
