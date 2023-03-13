@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Globalzen Studios</title>
+        <title>GZ Studios</title>
         <meta name="description" content="Connecting Communinites" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
